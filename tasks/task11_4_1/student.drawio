@@ -1,9 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.2.7">
   <diagram name="Page-1" id="3eoKgHuXESsboU8suLJ7">
-    <mxGraphModel dx="1426" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ruAnFjIgM1kc1LRaLVIF-1" target="ruAnFjIgM1kc1LRaLVIF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-14" value="enrols on" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ruAnFjIgM1kc1LRaLVIF-13">
+          <mxGeometry x="-0.0302" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-1" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-2" value="&lt;div&gt;id: Int&lt;/div&gt;&lt;div&gt;name: String&lt;/div&gt;&lt;div&gt;degreeProgramme: String&lt;/div&gt;&lt;div&gt;levelOfStudy: Int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ruAnFjIgM1kc1LRaLVIF-1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ruAnFjIgM1kc1LRaLVIF-1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-9" value="Module" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="280" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-10" value="&lt;div&gt;moduleCode: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;title: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;numCredits: Int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ruAnFjIgM1kc1LRaLVIF-9">
+          <mxGeometry y="26" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ruAnFjIgM1kc1LRaLVIF-9">
+          <mxGeometry y="80" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ruAnFjIgM1kc1LRaLVIF-12" value="&lt;div&gt;enrolStudent(student: Student)&lt;/div&gt;&lt;div&gt;generateTranscript(student: Student)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ruAnFjIgM1kc1LRaLVIF-9">
+          <mxGeometry y="88" width="210" height="42" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
