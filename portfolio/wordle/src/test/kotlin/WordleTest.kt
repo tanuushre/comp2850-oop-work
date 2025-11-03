@@ -33,6 +33,6 @@ class WordleTest : StringSpec({
     }
 
     "evaluateGuess marks correct letters only" {
-        evaluateGuess("abode", "cider") shouldBe listOf(1, 0, 0, 0, 1)
+        evaluateGuess("abode", "abate") shouldBe listOf(1, 1, 0, 0, 1)
     }
 })
